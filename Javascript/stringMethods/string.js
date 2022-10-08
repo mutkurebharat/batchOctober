@@ -124,11 +124,19 @@ var str = "string Working on string methods string";
 
 ////////////// split //////////////////////
 // convert string to array
-var str = "string Working on string methods string";
+// var str = "string Working on string methods string";
 
-var split1 = str.split();
-var split2 = str.split(' ')
-var split3 = str.split('')
-// console.log(split1);
-console.log(typeof split2);
+// var split1 = str.split();
+// var split2 = str.split(' ')
+// var split3 = str.split('')
+// // console.log(split1);
+// console.log(typeof split2);
 // console.log(split3);
+
+/////////// Declaring String ///////
+
+var constructorString = new String("Bharat");
+console.log(typeof constructorString);
+
+var constructorNum = new Number(10);
+console.log(typeof constructorNum);
