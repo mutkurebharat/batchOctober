@@ -122,9 +122,9 @@ function compareFunc(a,b) {
 
 ////// Highest or Lowest Value /////////
 
-var sortArr = numArr.sort(compareFunc);
-var highest = sortArr[sortArr.length - 1];
-lowest = sortArr[0];
-console.log(sortArr);
-console.log("Highest = ", highest);
-console.log("Lowest = ", lowest);
+// var sortArr = numArr.sort(compareFunc);
+// var highest = sortArr[sortArr.length - 1];
+// lowest = sortArr[0];
+// console.log(sortArr);
+// console.log("Highest = ", highest);
+// console.log("Lowest = ", lowest);
